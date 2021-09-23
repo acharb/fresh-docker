@@ -1,0 +1,11 @@
+#! /usr/bin/env bash
+set -e
+
+# dependencies
+export DEBIAN_FRONTEND=noninteractive
+apt-get update
+apt-get install -y postgresql 
+
+apt-get clean
+
+echo "\nDone installing dependencies...\n"
