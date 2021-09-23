@@ -4,7 +4,7 @@ ADD dependencies /
 RUN ["chmod", "+x", "dependencies"]
 RUN /dependencies
 
-ADD common /opt/stellar-default/common
+# ADD common /opt/stellar-default/common
 
 ADD start /
 RUN ["chmod", "+x", "start"]

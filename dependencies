@@ -4,7 +4,7 @@ set -e
 # dependencies
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
-apt-get install -y postgresql 
+apt-get install -y postgresql bash
 
 apt-get clean
 
