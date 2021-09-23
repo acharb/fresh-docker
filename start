@@ -1,4 +1,7 @@
 #! /usr/bin/env bash
 set -e
 
+echo "ls /var:"
+ls /var
+echo "ls /var/run:"
 ls /var/run
